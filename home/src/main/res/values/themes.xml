@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize text color -->
+        <item name="android:textColor">@color/color_main_text</item> <!-- Example: White text color -->
+        <!-- Customize hint text color -->
+        <item name="android:textColorHint">@color/color_secondary_text</item> <!-- Example: Light gray hint color -->
+
+    </style>
+</resources>

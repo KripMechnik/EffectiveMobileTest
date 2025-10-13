@@ -1,0 +1,9 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_courses">Search courses...</string>
+    <string name="with_date">По дате добавления</string>
+    <string name="acc">Аккаунт</string>
+    <string name="favourites">Избранное</string>
+    <string name="home">Главная</string>
+</resources>
