@@ -1,8 +1,9 @@
 package com.example.home.data
 
+import com.example.home.domain.repo.CourseRepo
 import com.example.network.api.CoursesApi
 import com.example.network.models.CourseList
-import com.example.network.models.Resource
+import com.example.core.utils.Resource
 import javax.inject.Inject
 
 class CourseRepoImpl @Inject constructor(

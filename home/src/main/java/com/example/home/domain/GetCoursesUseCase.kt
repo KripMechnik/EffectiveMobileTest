@@ -1,8 +1,10 @@
 package com.example.home.domain
 
-import com.example.home.data.CourseRepo
+import com.example.home.data.dto.toCourseEntity
+import com.example.home.domain.entity.CourseEntity
+import com.example.home.domain.repo.CourseRepo
 import com.example.network.models.CourseList
-import com.example.network.models.Resource
+import com.example.core.utils.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

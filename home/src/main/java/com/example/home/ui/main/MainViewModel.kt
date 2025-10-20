@@ -1,18 +1,16 @@
 package com.example.home.ui.main
 
 import android.util.Log
-import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.home.domain.CourseEntity
+import com.example.home.domain.entity.CourseEntity
 import com.example.home.domain.GetCoursesUseCase
-import com.example.network.models.Resource
+import com.example.core.utils.Resource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class MainViewModel @Inject constructor(

@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.home.databinding.CourseItemBinding
-import com.example.home.domain.CourseEntity
+import com.example.home.domain.entity.CourseEntity
 
 class CoursesAdapter(
     private val courses: List<CourseEntity>

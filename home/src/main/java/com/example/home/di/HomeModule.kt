@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.core.di.ViewModelKey
 import com.example.core.factory.ViewModelFactory
-import com.example.home.data.CourseRepo
+import com.example.home.domain.repo.CourseRepo
 import com.example.home.data.CourseRepoImpl
 import com.example.home.ui.main.MainViewModel
 import dagger.Binds
