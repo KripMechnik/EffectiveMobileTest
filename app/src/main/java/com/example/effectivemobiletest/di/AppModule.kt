@@ -1,9 +1,9 @@
 package com.example.effectivemobiletest.di
 
-import com.example.auth.ui.navigation.AuthRouter
+import com.example.core.navigation.AuthRouter
 import com.example.core.di.ActivityProvider
-import com.example.home.ui.navigation.MainScreenRouter
-import com.example.effectivemobiletest.navigation.MainRouter
+import com.example.core.navigation.MainScreenRouter
+import com.example.core.navigation.main.MainRouter
 import com.example.effectivemobiletest.navigation.MainRouterImpl
 import dagger.Module
 import dagger.Provides

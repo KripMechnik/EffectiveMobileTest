@@ -1,4 +1,4 @@
-package com.example.auth.ui.navigation
+package com.example.core.navigation
 
 interface AuthRouter {
     fun navigateToHomeFromAuth()

@@ -3,9 +3,9 @@ package com.example.effectivemobiletest.navigation
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import com.example.core.di.ActivityProvider
+import com.example.core.navigation.main.MainRouter
 import com.example.effectivemobiletest.MainActivity
 import com.example.home.ui.HomeActivity
-import com.example.home.ui.main.MainFragment
 import java.lang.ref.WeakReference
 import javax.inject.Inject
 import javax.inject.Singleton

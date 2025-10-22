@@ -53,7 +53,7 @@ class App : Application(), AppInjector {
                 } ?: DaggerAuthComponent
                     .factory()
                     .create(
-                        authDependencies = appComponent
+                        coreComponent = coreComponent
                     ) as Component
             }
             HomeComponent::class -> {
@@ -62,7 +62,6 @@ class App : Application(), AppInjector {
                 } ?: DaggerHomeComponent
                     .factory()
                     .create(
-                        homeDependencies = appComponent,
                         coreComponent = coreComponent,
                         networkComponent = networkComponent
                     ) as Component

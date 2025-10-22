@@ -1,4 +1,4 @@
-package com.example.home.ui.navigation
+package com.example.core.navigation
 
 interface MainScreenRouter {
     fun navigateToFavourites()

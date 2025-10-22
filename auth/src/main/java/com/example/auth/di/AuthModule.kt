@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.auth.ui.LoginViewModel
 import com.example.core.di.ViewModelKey
+import com.example.core.di.scope.AuthScope
 import com.example.core.factory.ViewModelFactory
 import dagger.Binds
 import dagger.Module

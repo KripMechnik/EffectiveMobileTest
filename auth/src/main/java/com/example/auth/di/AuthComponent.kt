@@ -2,13 +2,14 @@ package com.example.auth.di
 
 import androidx.lifecycle.ViewModelProvider
 import com.example.auth.ui.LoginFragment
-import com.example.di.NetworkComponent
+import com.example.core.di.CoreComponent
+import com.example.core.di.scope.AuthScope
 import dagger.Component
 
 @AuthScope
 @Component(
     modules = [AuthModule::class],
-    dependencies = [AuthDependencies::class]
+    dependencies = [CoreComponent::class]
 )
 interface AuthComponent {
 
@@ -17,7 +18,7 @@ interface AuthComponent {
     @Component.Factory
     interface Factory {
         fun create(
-            authDependencies: AuthDependencies
+            coreComponent: CoreComponent
         ): AuthComponent
     }
     fun inject(fragment: LoginFragment)

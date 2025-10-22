@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.example.auth.databinding.FragmentLoginBinding
 import com.example.auth.di.AuthComponent
-import com.example.auth.ui.navigation.AuthRouter
+import com.example.core.navigation.AuthRouter
 import com.example.core.di.utils.deleteComponent
 import com.example.core.di.utils.getComponent
 import kotlinx.coroutines.flow.launchIn

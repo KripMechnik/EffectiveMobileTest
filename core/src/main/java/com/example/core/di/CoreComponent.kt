@@ -1,5 +1,7 @@
 package com.example.core.di
 
+import com.example.core.navigation.AuthRouter
+import com.example.core.navigation.MainScreenRouter
 import dagger.Component
 import javax.inject.Singleton
 
@@ -11,6 +13,10 @@ import javax.inject.Singleton
 interface CoreComponent {
 
     val activityProvider: ActivityProvider
+
+    val authRouter: AuthRouter
+
+    val mainScreenRouter: MainScreenRouter
 
     @Component.Factory
     interface Factory {
